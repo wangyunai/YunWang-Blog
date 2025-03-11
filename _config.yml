@@ -1,8 +1,8 @@
 title: Yun Wang's Blog
 description: My thoughts, ideas, and experiences
 author: Yun Wang
-url: https://yunwang.github.io
-baseurl: ""
+url: https://wangyunai.github.io
+baseurl: "/YunWang-Blog"
 
 # Build settings
 markdown: kramdown
