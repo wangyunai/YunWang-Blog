@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Use Jekyll for Blogging"
-date: 2023-07-15 14:30:00 -0500
+date: 2025-03-11 14:30:00 -0500
 categories: [technology, tutorial]
 tags: [jekyll, github-pages, blogging]
 ---

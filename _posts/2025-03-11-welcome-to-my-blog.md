@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to My Blog!"
-date: 2023-07-04 12:00:00 -0500
+date: 2025-03-11 12:00:00 -0500
 categories: [introduction, personal]
 tags: [welcome, first-post]
 ---
@@ -21,7 +21,7 @@ On this blog, I plan to write about:
 
 ## About Me
 
-I'm Yun Wang, a passionate [your profession/interests]. This blog will be a space where I document my journey and share insights with the community.
+I'm Yun Wang, a passionate technologist and lifelong learner. This blog will be a space where I document my journey and share insights with the community.
 
 Stay tuned for more content coming soon!
 
