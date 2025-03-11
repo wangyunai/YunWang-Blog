@@ -6,26 +6,32 @@ permalink: /about/
 
 # About Me
 
-Hello! I'm Yun Wang, and this is my personal blog.
+Hello! I'm Yun Wang, and this is my personal blog where I share my thoughts, experiences, and projects.
 
 ## Background
 
-[Add your background information here]
+I'm passionate about technology, writing, and sharing knowledge. This blog serves as a platform for me to document my journey and connect with like-minded individuals.
 
 ## Skills & Expertise
 
-[List your skills and expertise]
+- Web Development
+- Data Analysis
+- Technical Writing
+- Problem Solving
 
 ## Interests
 
-[Share your interests and hobbies]
+- Technology and Innovation
+- Reading and Learning
+- Photography
+- Travel
 
 ## Contact
 
 Feel free to reach out to me through:
 
-- Email: [your email]
-- GitHub: [your GitHub profile]
-- LinkedIn: [your LinkedIn profile]
+- Email: your.email@example.com
+- GitHub: [wangyunai](https://github.com/wangyunai)
+- LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/your-profile/)
 
 Thank you for visiting my blog! 
