@@ -4,7 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-# My Projects
+<div class="page-header">
+  <h1>My Projects</h1>
+  <a href="https://github.com/wangyunai/YunWang-Blog/edit/main/projects.md" class="admin-only">Edit Page</a>
+</div>
 
 Here are some of the projects I've been working on:
 

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/admin.css' | relative_url }}">
     {% seo %}
 </head>
 <body>
@@ -23,13 +24,21 @@
     </header>
 
     <main class="container">
+        {% if page.layout == 'post' %}
+        <a href="https://github.com/wangyunai/YunWang-Blog/edit/main/{{ page.path }}" class="admin-only">Edit Post</a>
+        {% endif %}
         {{ content }}
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved. <span class="admin-login-link" onclick="loginAsAdmin()">•</span></p>
         </div>
     </footer>
+
+    <!-- Floating add new post button (admin only) -->
+    <a href="https://github.com/wangyunai/YunWang-Blog/new/main/_posts" class="admin-only admin-add-post" title="Add New Post">+</a>
+
+    <script src="{{ '/assets/js/admin.js' | relative_url }}"></script>
 </body>
 </html> 

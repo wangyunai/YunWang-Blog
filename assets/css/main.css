@@ -92,6 +92,7 @@ a:hover {
 
 .post-header {
     margin-bottom: 1.5rem;
+    position: relative;
 }
 
 .post-meta {
@@ -136,6 +137,55 @@ a:hover {
     padding-top: 1rem;
     border-top: 1px solid #eee;
     font-size: 0.9rem;
+}
+
+/* Page header with admin button */
+.page-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.page-header h1 {
+    margin-bottom: 0;
+}
+
+/* Home page styles */
+.home .post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.home .post-list li {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.home .post-list li:last-child {
+    border-bottom: none;
+}
+
+.home h2 {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.post-link {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.post-excerpt {
+    margin-top: 1rem;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: 500;
 }
 
 /* Footer styles */

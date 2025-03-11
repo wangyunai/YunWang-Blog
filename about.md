@@ -4,6 +4,11 @@ title: About
 permalink: /about/
 ---
 
+<div class="page-header">
+  <h1>About Me</h1>
+  <a href="https://github.com/wangyunai/YunWang-Blog/edit/main/about.md" class="admin-only">Edit Page</a>
+</div>
+
 # About Me
 
 Hello! I'm Yun Wang, and this is my personal blog where I share my thoughts, experiences, and projects.
