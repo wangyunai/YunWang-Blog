@@ -1,0 +1,69 @@
+/* Admin UI styling */
+.admin-only {
+    display: none; /* Hidden by default */
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.admin-only:hover {
+    background-color: #c0392b;
+    text-decoration: none;
+    color: white;
+}
+
+.admin-only.add-button {
+    background-color: #2ecc71;
+}
+
+.admin-only.add-button:hover {
+    background-color: #27ae60;
+}
+
+.admin-login-link {
+    opacity: 0.3;
+    font-size: 0.75rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.admin-login-link:hover {
+    opacity: 0.6;
+}
+
+#admin-status {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Floating add new post button */
+.admin-add-post {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.admin-add-post:hover {
+    background-color: #27ae60;
+    text-decoration: none;
+    color: white;
+}
+ 

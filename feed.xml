@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://wangyunai.github.io/YunWang-Blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wangyunai.github.io/YunWang-Blog/" rel="alternate" type="text/html" /><updated>2025-03-12T00:15:14+00:00</updated><id>https://wangyunai.github.io/YunWang-Blog/feed.xml</id><title type="html">Yun Wang’s Blog</title><subtitle>My thoughts, ideas, and experiences</subtitle><author><name>Yun Wang</name></author><entry><title type="html">Site Redesign</title><link href="https://wangyunai.github.io/YunWang-Blog/announcement/2025/03/11/site-redesign.html" rel="alternate" type="text/html" title="Site Redesign" /><published>2025-03-11T20:00:00+00:00</published><updated>2025-03-11T20:00:00+00:00</updated><id>https://wangyunai.github.io/YunWang-Blog/announcement/2025/03/11/site-redesign</id><content type="html" xml:base="https://wangyunai.github.io/YunWang-Blog/announcement/2025/03/11/site-redesign.html"><![CDATA[<h1 id="site-redesign">Site Redesign</h1>
+
+<p>I’m excited to announce that I’ve completely redesigned my blog with a fresh new look. The new design features:</p>
+
+<ul>
+  <li>A cleaner, more modern layout</li>
+  <li>Improved typography for better readability</li>
+  <li>Enhanced navigation</li>
+  <li>Better responsive design for mobile devices</li>
+</ul>
+
+<p>I hope you enjoy the new look and feel! More content coming soon.</p>
+
+<h2 id="whats-new">What’s New</h2>
+
+<p>Beyond the visual changes, I’ve also added:</p>
+
+<ul>
+  <li>Better post navigation</li>
+  <li>Improved category and tag display</li>
+  <li>Admin features for easier content management</li>
+</ul>
+
+<p>Stay tuned for more updates!</p>]]></content><author><name>Yun Wang</name></author><category term="announcement" /><category term="design" /><category term="update" /><summary type="html"><![CDATA[Site Redesign]]></summary></entry><entry><title type="html">How to Use Jekyll for Blogging</title><link href="https://wangyunai.github.io/YunWang-Blog/technology/tutorial/2025/03/11/how-to-use-jekyll.html" rel="alternate" type="text/html" title="How to Use Jekyll for Blogging" /><published>2025-03-11T19:30:00+00:00</published><updated>2025-03-11T19:30:00+00:00</updated><id>https://wangyunai.github.io/YunWang-Blog/technology/tutorial/2025/03/11/how-to-use-jekyll</id><content type="html" xml:base="https://wangyunai.github.io/YunWang-Blog/technology/tutorial/2025/03/11/how-to-use-jekyll.html"><![CDATA[<h1 id="how-to-use-jekyll-for-blogging">How to Use Jekyll for Blogging</h1>
+
+<p>Jekyll is a fantastic static site generator that’s perfect for blogging. In this post, I’ll share some tips and tricks for using Jekyll effectively.</p>
+
+<h2 id="why-jekyll">Why Jekyll?</h2>
+
+<p>Jekyll offers several advantages for bloggers:</p>
+
+<ul>
+  <li><strong>Simplicity</strong>: Write content in Markdown</li>
+  <li><strong>Flexibility</strong>: Customize your site with themes and layouts</li>
+  <li><strong>Speed</strong>: Static sites load quickly</li>
+  <li><strong>Free hosting</strong>: Works seamlessly with GitHub Pages</li>
+  <li><strong>No database</strong>: Less maintenance and security concerns</li>
+</ul>
+
+<h2 id="basic-jekyll-commands">Basic Jekyll Commands</h2>
+
+<p>Here are some essential Jekyll commands:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Create a new Jekyll site</span>
+jekyll new my-blog
+
+<span class="c"># Build your site</span>
+jekyll build
+
+<span class="c"># Serve your site locally</span>
+jekyll serve
+</code></pre></div></div>
+
+<h2 id="writing-posts">Writing Posts</h2>
+
+<p>Creating a new post is as simple as adding a file to the <code class="language-plaintext highlighter-rouge">_posts</code> directory with the correct filename format: <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-title.md</code>.</p>
+
+<h2 id="formatting-with-markdown">Formatting with Markdown</h2>
+
+<p>Jekyll uses Markdown for content formatting. Here are some basics:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Heading 1</span>
+<span class="gu">## Heading 2</span>
+
+<span class="ge">*italic*</span> and <span class="gs">**bold**</span>
+
+<span class="p">[</span><span class="nv">Link text</span><span class="p">](</span><span class="sx">URL</span><span class="p">)</span>
+
+<span class="p">![</span><span class="nv">Image alt text</span><span class="p">](</span><span class="sx">image-url</span><span class="p">)</span>
+<span class="p">
+-</span> Bullet point 1
+<span class="p">-</span> Bullet point 2
+<span class="p">
+1.</span> Numbered item 1
+<span class="p">2.</span> Numbered item 2
+</code></pre></div></div>
+
+<p>Stay tuned for more Jekyll tips and tricks in future posts!</p>]]></content><author><name>Yun Wang</name></author><category term="technology" /><category term="tutorial" /><category term="jekyll" /><category term="github-pages" /><category term="blogging" /><summary type="html"><![CDATA[How to Use Jekyll for Blogging]]></summary></entry><entry><title type="html">Welcome to My Blog!</title><link href="https://wangyunai.github.io/YunWang-Blog/introduction/personal/2025/03/11/welcome-to-my-blog.html" rel="alternate" type="text/html" title="Welcome to My Blog!" /><published>2025-03-11T17:00:00+00:00</published><updated>2025-03-11T17:00:00+00:00</updated><id>https://wangyunai.github.io/YunWang-Blog/introduction/personal/2025/03/11/welcome-to-my-blog</id><content type="html" xml:base="https://wangyunai.github.io/YunWang-Blog/introduction/personal/2025/03/11/welcome-to-my-blog.html"><![CDATA[<h1 id="welcome-to-my-blog">Welcome to My Blog!</h1>
+
+<p>Hello and welcome to my new blog! I’m excited to start sharing my thoughts, experiences, and projects with you all.</p>
+
+<h2 id="what-to-expect">What to Expect</h2>
+
+<p>On this blog, I plan to write about:</p>
+
+<ul>
+  <li>Technology and programming</li>
+  <li>Personal projects and experiences</li>
+  <li>Interesting discoveries and learnings</li>
+  <li>And much more!</li>
+</ul>
+
+<h2 id="about-me">About Me</h2>
+
+<p>I’m Yun Wang, a passionate technologist and lifelong learner. This blog will be a space where I document my journey and share insights with the community.</p>
+
+<p>Stay tuned for more content coming soon!</p>
+
+<h2 id="code-example">Code Example</h2>
+
+<p>Here’s a simple “Hello World” in Python:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Hello, World!"</span><span class="p">)</span>
+    
+<span class="n">hello_world</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Thanks for visiting, and I look forward to our journey together!</p>]]></content><author><name>Yun Wang</name></author><category term="introduction" /><category term="personal" /><category term="welcome" /><category term="first-post" /><summary type="html"><![CDATA[Welcome to My Blog!]]></summary></entry></feed>
