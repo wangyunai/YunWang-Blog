@@ -20,7 +20,7 @@ layout: default
     </header>
 
     <div class="post-content">
-        {{ content }}
+        {{ content | remove_first: page.title | remove_first: '# ' | prepend: '<div>' | append: '</div>' }}
     </div>
 
     {% if page.tags.size > 0 %}
