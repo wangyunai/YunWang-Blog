@@ -28,13 +28,7 @@ layout: default
               {% endfor %}
           {% endif %}
         </p>
-        <div class="post-excerpt">
-          {% assign excerpt_content = post.excerpt | strip_html | strip | remove: post.title %}
-          {% if excerpt_content != "" %}
-            {{ excerpt_content | truncatewords: 30 }}
-          {% endif %}
-          <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
-        </div>
+        <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
       </li>
       {% endfor %}
     </ul>
