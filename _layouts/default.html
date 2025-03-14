@@ -6,6 +6,10 @@
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/admin.css' | relative_url }}">
+    <!-- Modern font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     {% seo %}
 </head>
 <body>
@@ -32,8 +36,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved. <span class="admin-login-link" onclick="loginAsAdmin()">•</span></p>
-            <p>Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. <span class="admin-login-link" onclick="loginAsAdmin()">•</span></p>
         </div>
     </footer>
 

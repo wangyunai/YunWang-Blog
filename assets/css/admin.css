@@ -1,69 +1,73 @@
 /* Admin UI styling */
 .admin-only {
     display: none; /* Hidden by default */
-    margin-left: 10px;
-    padding: 5px 10px;
-    background-color: #e74c3c;
+    margin-left: 8px;
+    padding: 4px 8px;
+    background-color: #ef4444; /* Red 500 */
     color: white;
     border: none;
-    border-radius: 3px;
-    font-size: 0.8rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
     cursor: pointer;
     text-decoration: none;
-    transition: background-color 0.2s;
+    transition: all 0.2s ease;
 }
 
 .admin-only:hover {
-    background-color: #c0392b;
+    background-color: #dc2626; /* Red 600 */
     text-decoration: none;
     color: white;
 }
 
 .admin-only.add-button {
-    background-color: #2ecc71;
+    background-color: #10b981; /* Emerald 500 */
 }
 
 .admin-only.add-button:hover {
-    background-color: #27ae60;
+    background-color: #059669; /* Emerald 600 */
 }
 
 .admin-login-link {
-    opacity: 0.3;
+    opacity: 0.2;
     font-size: 0.75rem;
-    margin-left: 5px;
+    margin-left: 4px;
     cursor: pointer;
+    transition: opacity 0.2s ease;
 }
 
 .admin-login-link:hover {
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 #admin-status {
-    margin-top: 10px;
-    font-size: 0.8rem;
-    color: #888;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    color: #94a3b8; /* Slate 400 */
 }
 
 /* Floating add new post button */
 .admin-add-post {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #2ecc71;
+    bottom: 24px;
+    right: 24px;
+    background-color: #2563eb; /* Blue 600 */
     color: white;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 44px;
+    height: 44px;
     text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    line-height: 44px;
+    font-size: 22px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     z-index: 100;
+    transition: all 0.2s ease;
 }
 
 .admin-add-post:hover {
-    background-color: #27ae60;
+    background-color: #1d4ed8; /* Blue 700 */
     text-decoration: none;
     color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
  
